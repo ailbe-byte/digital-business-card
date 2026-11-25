@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ailbe Collins · Built Lens</title>
+<meta name="description" content="Ailbe Collins, Director of Photography at Built Lens. Save my contact details.">
+<meta name="theme-color" content="#FCFBF7">
+<style>
+  /* Brand colours: change these four values to restyle the whole card */
+  :root {
+    --bg: #FCFBF7;
+    --card: #F0ECE5;
+    --text: #0F0F0F;
+    --muted: #404040;
+    --accent: #DC682E;   /* button colour */
+    --accent-text: #0F0F0F;
+    --line: #cfc8bb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    display: flex; justify-content: center; padding: 24px 16px;
+  }
+  .card {
+    width: 100%; max-width: 400px; background: var(--card); border-radius: 20px;
+    padding: 32px 24px; text-align: center;
+  }
+  .brand { letter-spacing: .28em; font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 24px; padding-bottom: 12px; border-bottom: 2px solid var(--accent); display: inline-block; }
+  .brand img { max-height: 40px; max-width: 70%; }
+  .photo { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; filter: grayscale(1); margin: 0 auto 20px; display: block; }
+  h1 { font-size: 26px; margin: 0 0 4px; font-weight: 600; }
+  .role { color: var(--muted); margin: 0 0 28px; font-size: 15px; }
+  .btn {
+    display: block; text-decoration: none; padding: 15px; border-radius: 12px;
+    font-size: 16px; font-weight: 600; margin-bottom: 12px;
+  }
+  .primary { background: var(--accent); color: var(--accent-text); }
+  .secondary { border: 1px solid var(--line); color: var(--text); font-weight: 500; }
+  .loc { color: var(--muted); font-size: 14px; margin-top: 22px; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <!-- To use a logo later: replace the text below with <img src="logo.svg" alt="Built Lens"> -->
+    <div class="brand">BUILT LENS</div>
+    <img class="photo" src="headshot.jpg" alt="Ailbe Collins">
+    <h1>Ailbe Collins</h1>
+    <p class="role">Director of Photography, Built Lens<br>President, IPPVA</p>
+
+    <a class="btn primary" href="ailbe-collins.vcf" download="Ailbe Collins.vcf">Save contact</a>
+    <a class="btn secondary" href="tel:+353879033354">Call +353 87 903 3354</a>
+    <a class="btn secondary" href="mailto:ailbe@ailbe.com">ailbe@ailbe.com</a>
+    <a class="btn secondary" href="https://www.builtlens.com">www.builtlens.com</a>
+
+    <p class="loc">Saggart, Co. Dublin, Ireland</p>
+  </main>
+</body>
+</html>
