@@ -1,0 +1,13 @@
+{
+  "name": "Ailbe Collins – QR card",
+  "short_name": "My QR",
+  "start_url": "qr.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FCFBF7",
+  "theme_color": "#FCFBF7",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
