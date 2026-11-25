@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ailbe Collins · QR</title>
+<meta name="theme-color" content="#FCFBF7">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root { --bg:#FCFBF7; --text:#0F0F0F; --muted:#404040; --accent:#DC682E; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg); color: var(--text); text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 20px 16px;
+  }
+  .brand { letter-spacing: .28em; font-size: 13px; font-weight: 700; padding-bottom: 12px; border-bottom: 2px solid var(--accent); margin-bottom: 24px; }
+  .qr { width: min(86vw, 420px); background: #fff; padding: 12px; border-radius: 16px; }
+  .qr img { width: 100%; height: auto; display: block; image-rendering: pixelated; }
+  h1 { font-size: 22px; margin: 22px 0 4px; font-weight: 600; }
+  p { margin: 0; color: var(--muted); font-size: 15px; }
+  a { color: var(--muted); font-size: 14px; margin-top: 18px; display: inline-block; }
+</style>
+</head>
+<body>
+  <div class="brand">BUILT LENS</div>
+  <div class="qr"><img src="qr-code.png" alt="QR code for Ailbe Collins' digital business card"></div>
+  <h1>Ailbe Collins</h1>
+  <p>Scan to save my contact details</p>
+  <a href="index.html">View card</a>
+</body>
+</html>
